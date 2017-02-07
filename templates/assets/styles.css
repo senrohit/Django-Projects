@@ -1,0 +1,181 @@
+/* SpotMe Styling */
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Avenir Next", "Avenir", "Roboto", "Arial", sans-serif;
+}
+
+/* Static Page Header */
+
+header#static-header {
+  height: 100px;
+  background: none;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  background: -moz-linear-gradient(top,  rgba(2,0,0,0.52) 0%, rgba(2,0,0,0.35) 60%, rgba(2,0,0,0.16) 82%, rgba(2,0,0,0.04) 96%, rgba(0,0,0,0.01) 99%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  rgba(2,0,0,0.52) 0%,rgba(2,0,0,0.35) 60%,rgba(2,0,0,0.16) 82%,rgba(2,0,0,0.04) 96%,rgba(0,0,0,0.01) 99%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  rgba(2, 0, 0, 0.29) 0%,rgba(2, 0, 0, 0.11) 60%,rgba(2, 0, 0, 0.05) 82%,rgba(2,0,0,0.04) 96%,rgba(0, 0, 0, 0.01) 99%,rgba(255, 255, 255, 0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#85020000', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
+  z-index: 1;
+}
+
+header#static-header .container.header-wrap {
+  margin: 0px auto;
+}
+
+header#static-header #spot-me-brand {
+  max-width: 200px;
+  float: left;
+  padding-left: 40px;
+}
+
+/* logo */
+header#static-header .branding img {
+  width: 200px;
+  padding-top: 20px;
+}
+
+header#static-header .navbar.static-nav {
+  float: right;
+  color: #FFF;
+  font-weight: 500;
+  padding-right: 40px;
+}
+
+header#static-header nav ul li {
+  font-size: 19px;
+  float: left;
+  padding: 5px 17px;
+  margin-top: 20px;
+}
+
+header#static-header nav ul li a {
+  color: #FFF;
+  transition: ease-in all 0.125s;
+  border-radius: 34px;
+  padding: 6px 18px;
+  font-size: 0.95em;
+}
+
+header#static-header nav ul li a:hover {
+  color: #FFF;
+  background: #3c95ff;
+}
+
+header#static-header #sign-up {
+  border: none;
+  border-radius: 25px;
+  margin-top: 26px;
+  color: #FFF;
+  text-transform: uppercase;
+  background: #ff2e63; /* Old browsers */
+  background: -moz-linear-gradient(135deg, #ff7161 0%, #ff2e63 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(135deg, #ff7161 0%,#ff2e63 100%); /* -Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg, #ff7161 0%,#ff2e63 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#13889b', endColorstr='#32d873',GradientType=1 );
+  padding: 8px 24px;
+  transition: ease-in all 0.15s;
+  outline: none;
+}
+
+  
+/* Landing Component Styling */
+
+section#landing-featured {
+  width: 100%;
+  height: 100vh;
+  background-image: url(./img/featured.jpg);
+  background-size: cover;
+  background-position: center;
+  padding-top: 200px;
+  position: relative;
+}
+
+section#landing-featured h2 {
+  background: #31363c;
+  color: #FFF;
+  font-size: 4.3em;
+  font-weight: 700;
+  margin: 0px;
+  padding: 20px 20px;
+}
+
+section#landing-featured h2.caption-top {
+  width: 340px;
+  font-weight: 300;
+}
+
+section#landing-featured h2.caption-bottom {
+  width: 480px;
+  box-shadow: 0px 8px 26px 7px rgba(51, 52, 55, 0.72);
+  background: #ff2e63; /* Old browsers */
+  background: -moz-linear-gradient(135deg, #ff7161 0%, #ff2e63 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(135deg, #ff7161 0%,#ff2e63 100%); /* -Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg, #ff7161 0%,#ff2e63 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#13889b', endColorstr='#32d873',GradientType=1 );
+}
+
+.featured-footer {
+  bottom: 0px;
+  height: 50px;
+  border-top: 1px solid rgba(43, 43, 43, 0.67);
+  background: rgba(43, 43, 43, 0.47);
+  width: 100%;
+  position: absolute;
+}
+
+/* Page Template */
+
+#page-featured {
+  width: 100%;
+  height: 65vh;
+  background: #3993ff;
+  background-image: url(https://0.soompi.io/wp-content/uploads/2016/11/19032728/fairy6.jpg);
+  background-size: cover;
+  background-position: center center;
+}
+
+
+/* Perks Section 1 */
+
+#perks-section-1 h1.perks-header {
+  text-align: center;
+  font-weight: 700;
+  padding: 30px 0;
+}
+
+/* Authentication Pages */
+/* Sign Up */
+
+#auth-section {
+  margin-top: 150px;
+}
+
+/* Auth Header */
+
+header#static-header.auth-header {
+  background: #FFF;
+  border-bottom: 1px solid #e2e2e2;
+  height: 84px;
+}
+
+header#static-header.auth-header nav ul li a {
+  color: #323437;
+}
+
+header#static-header.auth-header nav ul li a:hover {
+  color: #FFF;
+}
+
+header#static-header.auth-header nav ul li {
+  margin-top: 16px;
+}
+
+header#static-header.auth-header #sign-up {
+  margin-top: 22px;
+  display: inline-block;
+}
+
